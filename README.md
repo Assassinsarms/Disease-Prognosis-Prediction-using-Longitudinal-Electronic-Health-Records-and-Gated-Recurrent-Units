@@ -1,6 +1,10 @@
 # INM706_Coursework
- 
+
+## Disease Prognosis Prediction using Longitudinal Electronic Health Records and Gated Recurrent Units
+
 NOTE: I cannot upload the original MIMIC-III CSV files to GitHub or Moodle as per the privacy agreement. However, the main data extracted from from the CSVs during data preprocessing is be uploaded after being pickled. You can start the code from the Preparation of data, labels section after importing the data.encoded_icd9s file.
+
+TO RUN, IMPORT THE NECESSARY LIBRARIES AND RUN ALL THE FUNCTION AND CLASS CELLS STARTING FROM THE DATA PREPARATION SECTION AND THEN SKIP TO THE EVALUATION SECTION TO RUN A TEST ON THE MODEL
 
 MIMIC-III is a large, freely-available database comprising deidentified health-related data associated with over 40,000 patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012. The MIMIC-III Clinical Database is available on PhysioNet. Though deidentified, MIMIC-III contains detailed information regarding the care of real patients, and as such requires credentialing before access.
 
