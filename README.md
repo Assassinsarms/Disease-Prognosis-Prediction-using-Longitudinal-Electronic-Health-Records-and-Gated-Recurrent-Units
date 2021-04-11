@@ -2,13 +2,20 @@
 
 ## Disease Prognosis Prediction using Longitudinal Electronic Health Records and Gated Recurrent Units
 
-Dependencies:
+### Dependencies:
+
 Windows 10 Home 64-bit
+
 Python: 3.8.7 (tags/v3.8.7:6503f05, Dec 21 2020, 17:59:51)
+
 Numpy Version: 1.2.1
+
 Pandas Version: 1.19.5
+
 PyTorch Version: 1.7.1+cu110
+
 Matplotlib Version: 3.3.3
+
 Seaborn Version: 0.11.1
 
 NOTE: I cannot upload the original MIMIC-III CSV files to GitHub or Moodle as per the privacy agreement. However, the main data extracted from from the CSVs during data preprocessing is uploaded after being pickled. You can start the code from the Preparation of data, labels section after importing the data.encoded_icd9s file.
